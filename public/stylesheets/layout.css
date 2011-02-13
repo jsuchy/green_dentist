@@ -1,0 +1,29 @@
+.main { width:988px; margin:0 auto;}
+#header {width:100%; overflow:hidden;}
+#content{ width:100%; overflow:hidden; padding-bottom:58px; padding-top:14px;}
+
+.wrapper {width:100%; overflow:hidden;}
+
+.left{ float:left;}
+.right{ float:right}
+
+.col1{ width:265px; float:left; padding-left:77px;}
+.col2{ width:527px; float:left; padding-left:62px;}
+.cols{ width:214px; float:left;}
+/* ============================= page1 ===========================*/
+#page1 #content{ padding-top:0;}
+#page1 .cols .cols{ width:92px;}
+/* ============================= page2 ===========================*/
+#page2 #content{ padding-bottom:43px;}
+/* ============================= page3 ===========================*/
+#page3 .cols{ width:226px;}
+#page3 #content{ padding-bottom:40px}
+/* ============================= page4 ===========================*/
+#page4 .cols{ width:226px;}
+#page4 #content{ padding-bottom:38px}
+/* ============================= page5 ===========================*/
+#page5 #content{ padding-bottom:15px}
+/* ============================= page6 ===========================*/
+#page6 .col1{ width:856px;}
+#page6 #content{ padding-bottom:48px;}
+
