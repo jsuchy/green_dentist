@@ -3,6 +3,12 @@ GreenDentist::Application.routes.draw do
   # first created -> highest priority.
 
   # Sample of regular route:
+  match 'cart' => 'cart#index'
+  match 'checkout' => 'cart#checkout'
+  match 'cart/checkout' => 'cart#checkout'
+  match 'cart/success' =>'cart#success'
+  match 'cart/failure' => 'cart#failure'
+  
   #   match 'products/:id' => 'catalog#view'
   # Keep in mind you can assign values other than :controller and :action
 
