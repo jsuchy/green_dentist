@@ -3,8 +3,6 @@
 <head>
     <title>The Simple One</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <link href="layout.css" rel="stylesheet" type="text/css" />
     
     <%= stylesheet_link_tag :all %>
     <%= javascript_include_tag :defaults %>
@@ -38,12 +36,15 @@
   					</div>
   					<div class="col2">
   						<h1>Products</h1>
+                        <div class="wrapper pad_bot2">
+                          <%= link_to "Cart", :controller =>"cart" %>
+                        </div>
   						<div class="wrapper pad_bot2">
   							<img src="images/filter_ruler.jpg" alt="" class="left marg_right1" />
   							<h2>Amalgam separator $35</h2>
                             <p></p>
                             <p>Our unit is 99.6% effective in clinical trials.  This is the product now being used by the U.S. Navy.  Filter traps debris at chairside not building up on inside of pipes.</p>
-                            <script type="text/javascript">_cashieData={name:'Amalgam%20Separator',desc:'99.6%25%20effective%20in%20clinical%20trials.%20Filter%20traps%20debris%20at%20chairside%20not%20building%20up%20on%20inside%20of%20pipes.',price:'1.00',sku:'filter',shipping:'',nontaxable:false,design:{fontFamily:'Arial, Helvetica, sans-serif',fontSize:'12px',rounded:'5px',text:'Add%20to%20Cart',colors:{text: '#FFFFFF',textHover: '#FFFFFF',button:'#97D64F',hover:'#8AC64B'}},redirect:'http://greendentist.heroku.com/cart'};document.write(unescape("%3Cscript src='" + ('https:' == document.location.protocol ? 'https://' : 'http://') + "cashie.s3.amazonaws.com/js/addtocart.js?" + (new Date()).getTime() + "' type='text/javascript'%3E%3C/script%3E"));</script>
+                            <script type="text/javascript">_cashieData={name:'Amalgam%20Separator',desc:'99.6%25%20effective%20in%20clinical%20trials.%20Filter%20traps%20debris%20at%20chairside%20not%20building%20up%20on%20inside%20of%20pipes.',price:'35.00',sku:'filter',shipping:'',nontaxable:false,design:{fontFamily:'Arial, Helvetica, sans-serif',fontSize:'12px',rounded:'5px',text:'Add%20to%20Cart',colors:{text: '#FFFFFF',textHover: '#FFFFFF',button:'#97D64F',hover:'#8AC64B'}},redirect:'http://greendentist.heroku.com/cart'};document.write(unescape("%3Cscript src='" + ('https:' == document.location.protocol ? 'https://' : 'http://') + "cashie.s3.amazonaws.com/js/addtocart.js?" + (new Date()).getTime() + "' type='text/javascript'%3E%3C/script%3E"));</script>
   						</div>
   						<div class="wrapper under">
   							<img src="images/recycle_bin.jpg" alt="" class="left marg_right1" />

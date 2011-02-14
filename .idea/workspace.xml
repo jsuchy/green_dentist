@@ -3,9 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="058aab1a-4a73-4007-874e-343de1fe5cd9" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/controllers/cart_controller.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cart/failure.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cart/index.html.erb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cart/success.html.erb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/cart/_back_link.html.erb" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/spec/controllers/cart_controller_spec.rb" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/content.jpg" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/footer.jpg" afterPath="" />
@@ -17,6 +15,8 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sidebarh3.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cart/failure.html.erb" afterPath="$PROJECT_DIR$/app/views/cart/failure.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/cart/success.html.erb" afterPath="$PROJECT_DIR$/app/views/cart/success.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/stylesheets/style.css" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" />
@@ -59,7 +59,43 @@
       <file leaf-file-name="application.html.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="28" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.5">
+            <state line="46" column="253" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.36">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="success.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cart/success.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="41" selection-start="245" selection-end="286" vertical-scroll-proportion="-1.1428572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="failure.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cart/failure.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="41" selection-start="286" selection-end="286" vertical-scroll-proportion="-1.1428572">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cart/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="97" selection-start="97" selection-end="101" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_back_link.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/cart/_back_link.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="4" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -112,6 +148,7 @@
         <option value="$PROJECT_DIR$/app/controllers/cart_controller.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/app/views/cart/success.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/cart/_back_link.html.erb" />
         <option value="$PROJECT_DIR$/app/views/cart/failure.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
@@ -711,30 +748,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cart/failure.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="243" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cart/success.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="2" selection-start="355" selection-end="355" vertical-scroll-proportion="0.18181819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/cart/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="97" selection-start="97" selection-end="101" vertical-scroll-proportion="-0.0">
           <folding />
         </state>
       </provider>
@@ -746,9 +762,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cart/_back_link.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="4" selection-start="73" selection-end="73" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cart/success.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="245" selection-end="286" vertical-scroll-proportion="-1.1428572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cart/failure.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="41" selection-start="286" selection-end="286" vertical-scroll-proportion="-1.1428572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/cart/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="97" selection-start="97" selection-end="101" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="28" selection-start="3863" selection-end="3863" vertical-scroll-proportion="0.5">
+        <state line="46" column="253" selection-start="2829" selection-end="2829" vertical-scroll-proportion="0.36">
           <folding />
         </state>
       </provider>
